@@ -1,0 +1,66 @@
+/* PetDietPlan.css */
+.pet-diet-plan-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .pet-type-selector {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .pet-type-selector button {
+    border: none;
+    background-color: #64c6ef;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+  }
+  
+  .pet-type-selector button:hover {
+    background-color: #106d96;
+  }
+  
+  .diet-plan-display {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: left;
+  }
+  
+  .diet-plan-display h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .diet-plan-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .diet-plan-info img {
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  .diet-plan-info ul {
+    width: 45%;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+  }
+  
+  .diet-plan-info ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  

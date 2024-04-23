@@ -1,0 +1,84 @@
+/* Orders container styling */
+.orders-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e0f7fa; /* Light turquoise background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Orders header styling */
+  .orders-header {
+    font-size: 24px;
+    color: #006064; /* Teal color */
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Orders list styling */
+  .orders-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Individual order item styling */
+  .order-item {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s; /* Add smooth transition */
+  }
+  
+  /* Hover effect on order item */
+  .order-item:hover {
+    transform: translateY(-2px); /* Slightly lift the item on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly darker shadow on hover */
+    background-color: #e0f2f1; /* Light cyan background on hover */
+  }
+  
+  /* Order header styling */
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Order ID and date styling */
+  .order-id,
+  .order-date {
+    font-size: 14px;
+    color: #00796b; /* Dark teal color */
+  }
+  
+  /* Order body styling */
+  .order-body {
+    font-size: 16px;
+    color: #004d40; /* Deep teal color */
+  }
+  
+  /* Order amount styling */
+  .order-amount {
+    font-weight: bold;
+    color: #00796b; /* Dark teal color */
+    margin-bottom: 5px;
+  }
+  
+  /* Order items styling */
+  .order-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-items ul {
+    padding-left: 15px;
+  }
+  
+  /* Order item styling */
+  .order-items li {
+    color: #00796b; /* Dark teal color */
+  }
+  

@@ -1,0 +1,65 @@
+/* PetCarePage.css */
+
+.pet-care-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .intro-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .care-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .care-option {
+    flex: 0 1 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .care-option h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .care-option ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .care-option ul li {
+    margin-bottom: 10px;
+  }
+  /* PetCare.css */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; 
+  }
+  
+  
+  /* Adding background images for visual representation */
+  
+ 
+  
+  /* Add more care options with corresponding background images as needed */
+  

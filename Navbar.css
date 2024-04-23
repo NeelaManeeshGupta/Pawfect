@@ -1,0 +1,77 @@
+/* Navbar.css */
+.navbar {
+  background-color: #3b41f3;
+  color: #fff;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-logo img {
+  width: 40px; /* Set the width of the logo image */
+  height: 40px; /* Set the height of the logo image */
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  position: relative;
+  margin-left: 20px;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-link:hover {
+  background-color: #555;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 12px 16px;
+}
+
+.dropdown-link {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-link:hover {
+  background-color: #555;
+}
+
+.fa-shopping-cart {
+  font-size: 20px;
+}

@@ -1,0 +1,53 @@
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero-section {
+   background-image: url('C:\Users\Maneesh\OneDrive\Desktop\petweb\file\public\Images\petAbout.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+  }
+  
+  .story-section,
+  .mission-section,
+  .team-section {
+    margin-top: 40px;
+  }
+  
+  .story-content,
+  .mission-content,
+  .team-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .story-content h2,
+  .mission-content h2,
+  .team-content h2 {
+    font-size: 28px;
+  }
+  
+  .story-content p,
+  .mission-content p,
+  .team-content p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  

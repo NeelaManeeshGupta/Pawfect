@@ -1,0 +1,76 @@
+/* Container styling */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9fb; /* Soft, light background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Header styling */
+h1 {
+  font-size: 28px;
+  color: #3a3a3a; /* Dark gray color */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form styling */
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px; /* Spacing between form fields */
+}
+
+/* Label styling */
+label {
+  font-size: 16px;
+  color: #555; /* Medium gray color */
+  margin-bottom: 5px;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s; /* Smooth transition */
+}
+
+/* Input and textarea focus styling */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #6a67ce; /* Soft purple color on focus */
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6a67ce; /* Soft purple color */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Button hover styling */
+button:hover {
+  background-color: #4a46a8; /* Darker purple on hover */
+}
+
+/* Button focus styling */
+button:focus {
+  outline: none;
+  box-shadow: 0 0 4px #6a67ce; /* Soft purple shadow on focus */
+}
